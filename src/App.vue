@@ -161,7 +161,11 @@ export default {
               "green",
               "blue"
             ],
-            data: [40, 39, 20, 40, 39, 80, 40]
+            data: [40, 39, 20, 40, 39, 80, 40],
+            rough: {
+              fillStyle: "cross-hatch",
+              hachureGap: 8
+            }
           },
           {
             label: "Data Two",
@@ -175,7 +179,11 @@ export default {
               "#36a2eb",
               "#cc65fe"
             ],
-            data: [39, 10, 40, 39, 80, 100, 22]
+            data: [39, 10, 40, 39, 80, 100, 22],
+            rough: {
+              fillStyle: "cross-hatch",
+              hachureGap: 8
+            }
           },
           {
             label: "Data Three",
@@ -189,7 +197,11 @@ export default {
               "#cc65fe",
               "#ffce56"
             ],
-            data: [29, 40, 10, 69, 10, 30, 92]
+            data: [29, 40, 10, 69, 10, 30, 92],
+            rough: {
+              fillStyle: "cross-hatch",
+              hachureGap: 8
+            }
           }
         ]
       },
@@ -217,6 +229,11 @@ export default {
               }
             }
           ]
+        },
+        plugins: {
+          rough: {
+            enabled: true
+          }
         }
       },
 
