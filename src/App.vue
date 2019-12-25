@@ -77,6 +77,7 @@
   </div>
 </template>
 
+<script src="https://cdn.jsdelivr.net/npm/roughjs@3.1.0/dist/rough.min.js"></script>
 <script>
 import LineChart from "./components/Charts/Chartjs/LineChart.vue";
 import BarChart from "./components/Charts/Chartjs/BarChart.vue";
